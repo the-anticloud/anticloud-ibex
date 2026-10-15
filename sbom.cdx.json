@@ -1,0 +1,341 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:6b14f038-ab54-5804-b709-083079f7589b",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T07:46:27Z",
+  "component": {
+   "type": "application",
+   "name": "IBEX",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/IBEX@83b357604d34",
+   "purl": "pkg:generic/anticloud/IBEX@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "packaging",
+   "version": "==23.1",
+   "purl": "pkg:pypi/packaging@23.1",
+   "bom-ref": "pypi/packaging@==23.1"
+  },
+  {
+   "type": "library",
+   "name": "anytree",
+   "version": "==2.8.0",
+   "purl": "pkg:pypi/anytree@2.8.0",
+   "bom-ref": "pypi/anytree@==2.8.0"
+  },
+  {
+   "type": "library",
+   "name": "hjson",
+   "version": "==3.1.0",
+   "purl": "pkg:pypi/hjson@3.1.0",
+   "bom-ref": "pypi/hjson@==3.1.0"
+  },
+  {
+   "type": "library",
+   "name": "mako",
+   "version": "==1.1.6",
+   "purl": "pkg:pypi/mako@1.1.6",
+   "bom-ref": "pypi/mako@==1.1.6"
+  },
+  {
+   "type": "library",
+   "name": "pyyaml",
+   "version": "==6.0",
+   "purl": "pkg:pypi/pyyaml@6.0",
+   "bom-ref": "pypi/pyyaml@==6.0"
+  },
+  {
+   "type": "library",
+   "name": "wheel",
+   "version": "==0.41.2",
+   "purl": "pkg:pypi/wheel@0.41.2",
+   "bom-ref": "pypi/wheel@==0.41.2"
+  },
+  {
+   "type": "library",
+   "name": "fusesoc",
+   "version": "unspecified",
+   "purl": "pkg:pypi/fusesoc",
+   "bom-ref": "pypi/fusesoc@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "rpds-py",
+   "version": "==0.13.2",
+   "purl": "pkg:pypi/rpds-py@0.13.2",
+   "bom-ref": "pypi/rpds-py@==0.13.2"
+  },
+  {
+   "type": "library",
+   "name": "libcst",
+   "version": "<2.0.0",
+   "purl": "pkg:pypi/libcst@2.0.0",
+   "bom-ref": "pypi/libcst@<2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "isort",
+   "version": "<6.0.0",
+   "purl": "pkg:pypi/isort@6.0.0",
+   "bom-ref": "pypi/isort@<6.0.0"
+  },
+  {
+   "type": "library",
+   "name": "junit-xml",
+   "version": "<2.0",
+   "purl": "pkg:pypi/junit-xml@2.0",
+   "bom-ref": "pypi/junit-xml@<2.0"
+  },
+  {
+   "type": "library",
+   "name": "pathlib3x",
+   "version": "<3.0.0",
+   "purl": "pkg:pypi/pathlib3x@3.0.0",
+   "bom-ref": "pypi/pathlib3x@<3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "typing-utils",
+   "version": "<1.0.0",
+   "purl": "pkg:pypi/typing-utils@1.0.0",
+   "bom-ref": "pypi/typing-utils@<1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "typeguard",
+   "version": "<5.0.0",
+   "purl": "pkg:pypi/typeguard@5.0.0",
+   "bom-ref": "pypi/typeguard@<5.0.0"
+  },
+  {
+   "type": "library",
+   "name": "portalocker",
+   "version": "<3.0.0",
+   "purl": "pkg:pypi/portalocker@3.0.0",
+   "bom-ref": "pypi/portalocker@<3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "pydantic",
+   "version": "<3.0.0",
+   "purl": "pkg:pypi/pydantic@3.0.0",
+   "bom-ref": "pypi/pydantic@<3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "svg-py",
+   "version": "<2.0.0",
+   "purl": "pkg:pypi/svg-py@2.0.0",
+   "bom-ref": "pypi/svg-py@<2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "mistletoe",
+   "version": "<2.0.0",
+   "purl": "pkg:pypi/mistletoe@2.0.0",
+   "bom-ref": "pypi/mistletoe@<2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "premailer",
+   "version": "<4.0.0",
+   "purl": "pkg:pypi/premailer@4.0.0",
+   "bom-ref": "pypi/premailer@<4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "bitstring",
+   "version": "<5.0.0",
+   "purl": "pkg:pypi/bitstring@5.0.0",
+   "bom-ref": "pypi/bitstring@<5.0.0"
+  },
+  {
+   "type": "library",
+   "name": "sphinx",
+   "version": "<8.0.0",
+   "purl": "pkg:pypi/sphinx@8.0.0",
+   "bom-ref": "pypi/sphinx@<8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "pallets-sphinx-themes",
+   "version": "<3.0.0",
+   "purl": "pkg:pypi/pallets-sphinx-themes@3.0.0",
+   "bom-ref": "pypi/pallets-sphinx-themes@<3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "sphinxcontrib-log-cabinet",
+   "version": "<2.0.0",
+   "purl": "pkg:pypi/sphinxcontrib-log-cabinet@2.0.0",
+   "bom-ref": "pypi/sphinxcontrib-log-cabinet@<2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "sphinx-issues",
+   "version": "<4.0.0",
+   "purl": "pkg:pypi/sphinx-issues@4.0.0",
+   "bom-ref": "pypi/sphinx-issues@<4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "sphinx-rtd-theme",
+   "version": "<3.0.0",
+   "purl": "pkg:pypi/sphinx-rtd-theme@3.0.0",
+   "bom-ref": "pypi/sphinx-rtd-theme@<3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "rst2pdf",
+   "version": "<1.0",
+   "purl": "pkg:pypi/rst2pdf@1.0",
+   "bom-ref": "pypi/rst2pdf@<1.0"
+  },
+  {
+   "type": "library",
+   "name": "flake8",
+   "version": "<8.0.0",
+   "purl": "pkg:pypi/flake8@8.0.0",
+   "bom-ref": "pypi/flake8@<8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "pyvsc",
+   "version": "<1.0.0.0",
+   "purl": "pkg:pypi/pyvsc@1.0.0.0",
+   "bom-ref": "pypi/pyvsc@<1.0.0.0"
+  },
+  {
+   "type": "library",
+   "name": "tabulate",
+   "version": "<1.0.0",
+   "purl": "pkg:pypi/tabulate@1.0.0",
+   "bom-ref": "pypi/tabulate@<1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "pandas",
+   "version": "<3.0.0",
+   "purl": "pkg:pypi/pandas@3.0.0",
+   "bom-ref": "pypi/pandas@<3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "PyBoolector",
+   "version": "==3.2.4.20240823.1",
+   "purl": "pkg:pypi/pyboolector@3.2.4.20240823.1",
+   "bom-ref": "pypi/PyBoolector@==3.2.4.20240823.1"
+  },
+  {
+   "type": "library",
+   "name": "edalize",
+   "version": "==",
+   "purl": "pkg:pypi/edalize@",
+   "bom-ref": "pypi/edalize@=="
+  },
+  {
+   "type": "library",
+   "name": "psutil",
+   "version": ">=7.0.0",
+   "purl": "pkg:pypi/psutil@7.0.0",
+   "bom-ref": "pypi/psutil@>=7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "name",
+   "version": "aig-manip",
+   "purl": "pkg:cargo/name@aig-manip",
+   "bom-ref": "cargo/name@aig-manip"
+  },
+  {
+   "type": "library",
+   "name": "version",
+   "version": "0.1.0",
+   "purl": "pkg:cargo/version@0.1.0",
+   "bom-ref": "cargo/version@0.1.0"
+  },
+  {
+   "type": "library",
+   "name": "edition",
+   "version": "2024",
+   "purl": "pkg:cargo/edition@2024",
+   "bom-ref": "cargo/edition@2024"
+  },
+  {
+   "type": "library",
+   "name": "aig",
+   "version": "0.4.5",
+   "purl": "pkg:cargo/aig@0.4.5",
+   "bom-ref": "cargo/aig@0.4.5"
+  },
+  {
+   "type": "library",
+   "name": "clap",
+   "version": "4.5.41",
+   "purl": "pkg:cargo/clap@4.5.41",
+   "bom-ref": "cargo/clap@4.5.41"
+  },
+  {
+   "type": "library",
+   "name": "rIC3",
+   "version": "1.4.1",
+   "purl": "pkg:cargo/rIC3@1.4.1",
+   "bom-ref": "cargo/rIC3@1.4.1"
+  },
+  {
+   "type": "library",
+   "name": "serde",
+   "version": "1.0.219",
+   "purl": "pkg:cargo/serde@1.0.219",
+   "bom-ref": "cargo/serde@1.0.219"
+  },
+  {
+   "type": "library",
+   "name": "serde_json",
+   "version": "1.0.141",
+   "purl": "pkg:cargo/serde_json@1.0.141",
+   "bom-ref": "cargo/serde_json@1.0.141"
+  },
+  {
+   "type": "library",
+   "name": "vcd",
+   "version": "0.7.0",
+   "purl": "pkg:cargo/vcd@0.7.0",
+   "bom-ref": "cargo/vcd@0.7.0"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
